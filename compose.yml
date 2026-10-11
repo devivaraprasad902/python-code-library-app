@@ -74,6 +74,6 @@ services:
           memory: 200M
 networks:
   myapp:
-    driver: bridge
+    driver: overlay
 volumes:
   mydata:
