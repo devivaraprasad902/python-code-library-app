@@ -61,7 +61,7 @@ services:
   frontend:
     image: devi1999/frontend-lib
     ports:
-      - "5000:5000"
+      - "1111:5000"
     networks:
       - myapp
     deploy:
